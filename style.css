@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Zen Antique';
+    src: url('./fonts/ZenAntique-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.woff);
+}
+
+html {
+    --main-color: #0a0a0b;
+    --primary-color: #ffffff;
+    --secondary-color: #a0a0a0;
+    --minor-color: #f9e63d;
+    background-color: var(--main-color);
+    color: var(--primary-color);
+    font-size: 67.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    box-sizing: border-box;
+}
+
+h1 a {
+    font-size: 2rem;
+    font-family: 'Zen Antique', sans-serif;
+}
+
+h2 {
+    font-family: 'Zen Antique', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+
+li {
+    font-size: 2rem;
+    list-style: none;
+}
+
+button {
+    background-color: var(--minor-color);
+    color: var(--main-color);
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    font-family: 'Zen Antique', sans-serif;
+    cursor: pointer;
+}
+
+/* Navigation */
+
+.main-header {
+}  
+
+nav {
+    min-height: 10vh;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 2rem;
+}
+
+.nav-links li a {
+    color: var(--secondary-color);
+}
