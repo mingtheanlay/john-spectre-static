@@ -32,6 +32,14 @@ h1 a {
 
 h2 {
     font-family: 'Zen Antique', sans-serif;
+    font-size: 5.5rem;
+}
+
+p {
+    margin-top: 1rem;
+    font-family: 'Open Sans';
+    font-size: 2rem;
+    color: var(--secondary-color);
 }
 
 a {
@@ -54,19 +62,20 @@ button {
     cursor: pointer;
 }
 
+main {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
 /* Navigation */
 
-.main-header {
-}  
-
 nav {
-    min-height: 10vh;
+    min-height: 20vh;
     max-width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 3rem 0;
 }
 
 .nav-links {
@@ -81,4 +90,38 @@ nav {
 
 .nav-links li a {
     color: var(--secondary-color);
+}
+
+/* Hero Section */
+
+.hero-section {
+    min-height: 30vh;
+    display: flex;
+}
+
+.hero-text {
+    flex: 1 1 1rem;
+}
+
+.empty-hero {
+    flex: 1 1 1rem;
+}
+
+/* Brand Section */
+.brand-section {     
+    min-height: 50vh;;
+    align-items: center;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+/* make image in class brand-section bigger */
+.brands img {
+    height: auto;
+    min-width: 8%;
 }
