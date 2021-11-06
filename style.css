@@ -35,6 +35,11 @@ h2 {
     font-size: 5.5rem;
 }
 
+h3 a {
+    font-family: 'Zen Antique', sans-serif;
+    font-size: 4rem;
+}
+
 p {
     margin-top: 1rem;
     font-family: 'Open Sans';
@@ -108,8 +113,8 @@ nav {
 }
 
 /* Brand Section */
-.brand-section {     
-    min-height: 50vh;;
+.brand-section {
+    min-height: 30vh;
     align-items: center;
 }
 
@@ -124,4 +129,32 @@ nav {
 .brands img {
     height: auto;
     min-width: 8%;
+}
+
+/*Portfolio Section */
+.potfolio-section {
+    min-height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.card-1 {
+    margin-right: 5rem;
+}
+
+.card-2 {
+    margin-left: 5rem;
+}
+
+.pofolio-cards img {
+    height: auto;
+    min-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.pofolio-cards p {
+    font-size: 2rem;
+    margin: 2rem 0;
 }
