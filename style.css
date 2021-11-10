@@ -13,6 +13,7 @@ html {
     --primary-color: #ffffff;
     --secondary-color: #a0a0a0;
     --minor-color: #f9e63d;
+    --highlight: #2e3038;
     background-color: var(--main-color);
     color: var(--primary-color);
     font-size: 67.5%;
@@ -33,6 +34,11 @@ h1 a {
 h2 {
     font-family: 'Zen Antique', sans-serif;
     font-size: 5.5rem;
+}
+
+h3 {
+    font-family: 'Zen Antique', sans-serif;
+    font-size: 4rem;
 }
 
 h3 a {
@@ -108,7 +114,7 @@ nav {
     flex: 1 1 1rem;
 }
 
-.empty-hero {
+.empty-div {
     flex: 1 1 1rem;
 }
 
@@ -157,4 +163,68 @@ nav {
 .pofolio-cards p {
     font-size: 2rem;
     margin: 2rem 0;
+}
+
+/* Highlight Content */
+.highlight-content {
+    background-color: var(--highlight);
+}
+
+.highlight-section {
+    min-height: 40vh;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.highlight-contents,
+.highlight-contents * {
+    margin: 2rem 0;
+}
+
+.highlight-content-1 {
+    flex: 1 1 1rem;
+}
+
+.highlight-content-2 {
+    flex: 1 1 1rem;
+}
+
+/* Get in touch section */
+.get-in-touch-section {
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.get-in-touch-desc {
+    padding: 5rem 0;
+    flex: 2 1 10rem;
+}
+
+.get-in-touch-desc * {
+    margin: 1rem 0;
+}
+
+/* Footer Section */
+.footer-section {
+    min-height: 10vh;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-section h1 {
+    flex: 4 1 1rem;
+
+}
+
+.footer-section .social {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 1rem;
 }
