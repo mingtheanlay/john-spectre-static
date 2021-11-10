@@ -116,6 +116,7 @@ nav {
 
 .empty-div {
     flex: 1 1 1rem;
+    min-width: 5vw;
 }
 
 /* Brand Section */
@@ -144,14 +145,6 @@ nav {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 10rem;
-}
-
-.card-1 {
-    margin-right: 5rem;
-}
-
-.card-2 {
-    margin-left: 5rem;
 }
 
 .pofolio-cards img {
